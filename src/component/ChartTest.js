@@ -46,7 +46,6 @@ export const ChartTest = () => {
             console.log(Object.values(data.bpi))
             const xAxys = { labels: Object.keys(data.bpi), dataSets: [{ id: 1, label: '', data: Object.values(data.bpi) }] }
             setData(xAxys)
-            //console.log(data)
         } catch (error) {
             window.alert('Erro!')
         }
